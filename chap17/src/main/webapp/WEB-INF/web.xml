@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>now</servlet-name>
+		<servlet-class>example.NowServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>now</servlet-name>
+		<url-pattern>/now</url-pattern>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+
+</web-app>
